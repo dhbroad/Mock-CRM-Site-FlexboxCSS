@@ -1,0 +1,5 @@
+body, html{
+    /* set height and margin to keep page the same in different browsers */
+    height: 100%;
+    margin: 0px;
+}
