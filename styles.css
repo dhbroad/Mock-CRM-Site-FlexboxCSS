@@ -68,6 +68,10 @@ html {
 .sup-icons {
   grid-area: sup-icons;
 }
+.sup-icons {
+  margin-left: 200px;
+  
+}
 
 .sup-lady-at-desk {
   grid-area: sup-lady-at-desk;
@@ -145,7 +149,16 @@ html {
 }
 
 .sin-icons {
-  grid-area: sin-icons;
+  grid-area: sin-icons;}
+
+.sin-icons {
+  margin-left: 400px;
+  gap: px;
+}
+
+.sin-icons {
+height: 200px;
+
 }
 
 .sin-donthaveaccount {
@@ -199,3 +212,5 @@ html {
 .sin-emptyfooter {
   grid-area: sin-emptyfooter;
 }
+
+
