@@ -4,7 +4,7 @@ html {
   height: 100%;
   margin: 0px;
 }
-
+/*Tyler Start */
 .sup-container {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr 1fr;
@@ -213,6 +213,7 @@ height: 200px;
   grid-area: sin-emptyfooter;
 }
 
+/* Tyler End */
 
 body, html{
     /* set height and margin to keep page the same in different browsers */
@@ -220,7 +221,7 @@ body, html{
     margin: 0px;
 }
 
-/* David */
+/* David Start */
 .nav-container{
     width:100vw;
     height:120px;
@@ -284,14 +285,11 @@ nav li{
     right:0px;
     padding-bottom:7px;
 }
-/* David End */
 
 
 
 
 
-
-/* David */
 .landing-hr{
     width:40vw;
     margin-left:auto;
