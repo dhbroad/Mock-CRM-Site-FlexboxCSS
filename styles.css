@@ -3,3 +3,475 @@ body, html{
     height: 100%;
     margin: 0px;
 }
+
+/* David */
+.nav-container{
+    width:100vw;
+    height:120px;
+    background-color:white;
+    position:absolute;
+    top:0;
+}
+
+.crm-logo{
+position:absolute;
+margin-top:25px;
+margin-left:80px;
+}
+
+nav ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    display: inline-block;
+    margin-left:310px;
+    position:absolute;
+    width:80vw;
+
+}
+nav li{
+    float:left;
+    margin-left:130px;
+    margin-top:50px;
+}
+.nav-list a{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+    font-size:large;
+}
+
+.nav-right-buttons{
+    height:55px;
+    border-radius:12px;
+    font-size:x-large;
+    position:absolute;
+    margin-right:20px;
+    padding-bottom:7px;
+    top:30px;
+}
+
+.nav-sign-in-button{
+    width:127px;
+    color:rgb(8, 81, 248);
+    background-color:white;
+    border:2px solid rgb(8, 81, 248);
+    right:174px;
+}
+.try-it-free-button{
+    height:55px;
+    width:138px;
+    color:white;
+    background-color:rgb(8, 81, 248);
+    border-radius:12px;
+    border:none;
+    right:0px;
+    padding-bottom:7px;
+}
+/* David End */
+
+
+
+
+
+
+/* David */
+.landing-hr{
+    width:40vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+.explore-h4{
+    text-align:center;
+
+    font-family:sans-serif;
+    font-weight:bold;
+}
+.new-and-better-p{
+    width:660px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    font-weight:500;
+}
+
+.lorem-p-1{
+    width:450px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight:bold;
+    margin-top:20px;
+    font-size:large;
+}
+.lorem-p-2{
+    width:450px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight:bold;
+    margin-top:120px;
+    font-size:large;
+}
+
+
+
+
+
+.landing-first-icons-container{
+
+    display:flex;
+    width:900px;
+    height:200px;
+    justify-content:space-around;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.landing-first-icons{
+    width:100px;
+    height:110px;
+    border-radius:10px;
+    border:2px solid lightgrey;
+}
+.off-white-icons{
+    background-color:rgb(250,251,252);
+}
+
+.landing-first-icons-1{
+    background-color:rgb(8, 81, 248);
+}
+.landing-first-icons-1 img{
+    height:45px;
+    width:40px;
+    margin-left:27px;
+    margin-top:17px;
+}
+.landing-first-icons-1 p{
+    position:absolute;
+    z-index:10;
+    margin-left:40px;
+    font-size:x-large;
+    margin-top:-41px;
+    font-weight:500;
+}
+.landing-first-icons-1-bottom-text{
+    color:white;
+    margin-left:20px;
+    margin-bottom:-20px;
+    margin-top:15px;
+    font-size:small;
+}
+
+
+.little-dude-icon{
+    height:30px;
+    margin-left:33px;
+    margin-top:33px;
+    
+}
+.retain-text{
+    height:20px;
+    width:45px;
+    margin-left:30px;
+    font-size:small;
+    margin-top:14px;
+
+}
+
+.landing-first-icons-3 img{
+    height:45px;
+    margin-left:27%;
+    margin-top:15px;
+}
+.reporting-text{
+    font-size:small;
+    margin-left:20px;
+    margin-top:17px;
+
+}
+
+.landing-first-icons-4 img{
+    width:50px;
+    margin-left:25%;
+    margin-top:20%;
+}
+.convert-text{
+    font-size:small;
+    margin-left:25%;
+    margin-top:17px;
+}
+
+
+
+
+
+
+.main-picture-container{
+    display:flex;
+    height:600px;
+    width:55vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+}
+.main-picture-left-flex-container{
+    display:flex;
+    border:2px solid lightgrey;
+    border-right:none;
+    border-radius:20px 0px 0px 20px;
+}
+.main-picture-flex-picture{
+    width:17vw;
+    align-self:center;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.main-picture-right-flex-container{
+    display:flex;
+    background-color:rgb(8, 81, 248);
+    border:2px solid lightgrey;
+    border-radius:0 20px 20px 0;
+}
+.main-picture-flex-text{
+    align-self:center;
+    margin-left:35px;
+    margin-right:80px;
+    color:white;
+}
+
+.main-picture-flex-text p{
+    line-height:20px;
+}
+.main-picture-flex-text ul{
+    margin-top:30px;    
+    margin-bottom:40px;
+}
+.main-picture-flex-text li{
+    font-size:x-small;
+    color:lightgrey;
+    line-height:25px;
+    list-style-type:none;
+    margin-left:-30px;
+    width:350px;
+}
+.main-picture-flex-text li:before{
+    content:"-";
+}
+.main-picture-learn-more-button{
+    background-color:rgb(8, 81, 248);
+    width:190px;
+    border:1px solid white;
+    border-radius:5px;
+    padding-bottom:5px;
+}
+.main-picture-learn-more-button span,i{
+    color:white;
+    font-size:small;
+}
+.main-picture-learn-more-button span{
+    margin-left:20px;
+    margin-bottom:10px;
+} 
+
+.main-picture-learn-more-button i{
+    margin-left:50px;
+    margin-right:-10px;
+}
+
+.get-paid-h3{
+    text-align:center;
+    margin-top:-50px;
+}
+
+.collect-h4{
+    margin-left:70px;
+    margin-top:-150px;
+}
+
+
+
+
+
+
+.solutions-h4{
+    text-align:center;
+    margin-bottom:100px;
+    font-weight:bold;
+    margin-top:150px;
+}
+.landing-second-icons-container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 60px 200px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "email-dashboards-icon task-management-icon"
+      "analytics-icon project-calendars-icon";
+      width:700px;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:40px;
+      margin-bottom:100px;
+}
+  
+.landing-second-icons{
+    width:300px;
+}
+
+.landing-second-icons img{
+    width:120px;
+    margin-left:50px;
+    margin-bottom:10px;
+    
+}
+.lsii{
+    color:rgb(8, 81, 248);
+    position:absolute;
+    margin-top:60px;
+    margin-left:-75px;
+}
+
+.landing-second-icons h4{
+    font-weight:bold;
+    margin-left:20px;
+}
+.landing-second-icons p{
+    line-height:11px;
+    font-weight:bold;
+    font-size:x-small;
+    width:230px;
+    margin-left:20px;
+}
+
+.learn-more-button{
+    background-color:white;
+    border-radius:5px;
+    border:2px solid dimgrey;
+    width:150px;
+    padding-bottom:5px;
+    margin-left:40px;
+}
+.learn-more-button span{
+    font-size:smaller;
+    font-weight:bold;
+    margin-right:20px;
+}
+.learn-more-button i{
+    margin-right:-20px;
+    color:black;
+}
+
+.analytics-icon { grid-area: analytics-icon; 
+
+}
+.analytics-icon h4{
+    margin-left:60px;
+}
+  
+.project-calendars-icon { grid-area: project-calendars-icon; }
+  
+.task-management-icon { grid-area: task-management-icon; }
+  
+.email-dashboards-icon { grid-area: email-dashboards-icon; }
+
+
+
+
+
+.footer-background{
+    width:100vw;
+    height:500px;
+    background-color:rgb(8, 81, 248);
+    position:absolute;
+    
+}
+.footer-container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "try-double-tap try-double-tap"
+      "get-started-button chat-with-us-button"
+      "footer-notes footer-notes"
+      ". .";
+      padding-top:50px;
+      text-align:center;
+      width:550px;
+      margin-left:auto;
+      margin-right:auto;
+}
+
+.footer-text{
+      color:white;
+  }
+
+  .try-double-tap { grid-area: try-double-tap; }
+  .try-double-tap p{
+    font-size:x-large;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-stretch:condensed;
+  }
+  .try-double-tap h1{
+    font-size:275%;
+  }
+  
+  .get-started-button button{ grid-area: get-started-button; 
+  height:55px;
+  width:278px;
+  color:white;
+  background-color:rgb(127,209,37);
+  border-radius:10px;
+  border:none;
+  font-weight:500;
+  font-size:x-large;
+  margin-left:-30px;
+}
+.get-started-button span{
+    margin-right:60px;
+    margin-right:50px;
+}
+
+.right-carrot{
+    margin-right:-30px;
+}
+
+  
+.chat-with-us-button button{ 
+      grid-area: chat-with-us-button;
+      height:55px;
+    width:200px;
+    color:rgb(8, 81, 248);
+    background-color:white;
+    border-radius:10px;
+    border:none;
+    font-weight:bold;
+  
+}
+.chat-with-us-button i{
+        margin-left:20px;
+        margin-right:20px;
+        color:rgb(8, 81, 248);
+}
+
+.chat-with-us-button p{
+    display:inline;
+    font-stretch:condensed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.white-oval{
+      height:12px;
+      width:9px;
+}
+.footer-notes { grid-area: footer-notes;
+display:flex; 
+justify-content:space-between;
+align-items:center;
+margin-top:-80px;
+}
+/* David End */
