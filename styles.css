@@ -226,6 +226,7 @@ height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top:150px;
 }
 
 .row_grid {
