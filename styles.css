@@ -215,11 +215,12 @@ height: 200px;
 
 /* Tyler End */
 
-body, html{
-    /* set height and margin to keep page the same in different browsers */
-    height: 100%;
-    margin: 20px;
-}
+
+
+
+
+
+/* Asmeret Start */
 
 .Content_section_container {
     display: flex;
@@ -279,6 +280,11 @@ body, html{
     margin: 0 0 0 10px;
     margin: 0px;
 }
+
+/*Asmeret End */
+
+
+
 
 /* David Start */
 .nav-container{
@@ -387,7 +393,6 @@ nav li{
 
 
 
-
 .landing-first-icons-container{
 
     display:flex;
@@ -471,8 +476,6 @@ nav li{
     margin-left:25%;
     margin-top:17px;
 }
-
-
 
 
 
@@ -564,7 +567,6 @@ nav li{
 
 
 
-
 .solutions-h4{
     text-align:center;
     margin-bottom:100px;
@@ -645,7 +647,6 @@ nav li{
 .task-management-icon { grid-area: task-management-icon; }
   
 .email-dashboards-icon { grid-area: email-dashboards-icon; }
-
 
 
 
