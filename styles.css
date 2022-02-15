@@ -657,7 +657,6 @@ nav li{
     width:100vw;
     height:500px;
     background-color:rgb(8, 81, 248);
-    position:absolute;
     bottom:0;
 }
 .footer-container {  display: grid;
