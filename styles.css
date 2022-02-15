@@ -236,6 +236,10 @@ height: 200px;
     margin-left: 300px;
 }
 
+.column_grid{
+  height:600px;
+}
+
 .SignUpButton {
     display: inline;
     background-color: rgba(4, 59, 240, 0.925); 
