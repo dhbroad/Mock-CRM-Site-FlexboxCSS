@@ -1,10 +1,294 @@
-body, html{
-    /* set height and margin to keep page the same in different browsers */
-    height: 100%;
+body,
+html {
+  /* set height and margin to keep page the same in different browsers */
+  height: 100%;
+  margin: 0px;
+}
+/*Tyler Start */
+.sup-container {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr;
+  grid-template-rows: 0.7fr 0.9fr 1.4fr 1.3fr 0.7fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "sup-empty-header sup-empty-header sup-empty-header"
+    "sup-title sup-lady-at-desk sup-lady-at-desk"
+    "sup-inputs sup-lady-at-desk sup-lady-at-desk"
+    "sup-inputs sup-lady-at-desk sup-lady-at-desk"
+    "sup-button sup-lady-at-desk sup-lady-at-desk"
+    "sup-icons sup-lady-at-desk sup-lady-at-desk";
+}
+
+.sup-title {
+  grid-area: sup-title;
+}
+.sup-title h3 {
+  font-weight: 800;
+  margin-left: 375px;
+  margin-top: 50px;
+}
+
+.sup-inputs {
+  grid-area: sup-inputs;
+}
+.sup-inputs .input-box {
+  width: 500px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 40px 0;
+  outline: none;
+  border-radius: 20%/50%;
+  line-height: 40px;
+  margin-left: 200px;
+  padding: 25px;
+}
+
+.sup-button {
+  grid-area: sup-button;
+}
+.sup-button button {
+  border-radius: 20%/50%;
+  background-color: blue;
+  width: 250px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.sup-button h3 {
+  color: white;
+}
+
+.sup-button p {
+  margin-left: 300px;
+  margin-top: 15px;
+}
+
+.sup-icons {
+  grid-area: sup-icons;
+}
+.sup-icons {
+  margin-left: 200px;
+  
+}
+
+.sup-lady-at-desk {
+  grid-area: sup-lady-at-desk;
+}
+
+.sup-lady-at-desk img {
+  margin-top: 100px;
+  height: 600px;
+}
+
+.sup-empty-header {
+  grid-area: sup-empty-header;
+  border: 2 px solid black;
+}
+
+.sin-container {
+  display: grid;
+  grid-template-columns: 1.3fr 0.4fr 1.3fr;
+  grid-template-rows: 1fr 0.7fr 1.8fr 0.7fr 0.8fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "sin-donthaveaccount sin-empty sin-header"
+    "sin-signupbutton sin-empty sin-inputs"
+    "sin-rocket sin-empty sin-inputs"
+    "sin-rocket sin-empty sin-signinbutton"
+    "sin-emptyfooter sin-empty sin-icons";
+}
+
+.sin-inputs {
+  grid-area: sin-inputs;
+}
+.sin-input-box {
+  width: 500px;
+  height: 60px;
+  border: 1px solid black;
+  margin: 40px 0;
+  margin-right: 200px;
+  outline: none;
+  border-radius:10%/50%;
+  line-height: 40px;
+  margin-left: 200px;
+}
+
+.sin-header {
+  grid-area: sin-header;
+}
+
+.sin-header h3 {
+  margin-left: 240px;
+  font-weight: 500;
+}
+
+.sin-signinbutton {
+  grid-area: sin-signinbutton;
+}
+
+.sin-signinbutton {
+  margin-left: 350px;
+  margin-top: -150px;
+  }
+
+.sin-signinbutton button{
+  border-radius: 20%/50%;
+  background-color: blue;
+  width: 200px;
+  align-items: left;
+  margin-left: px;
+  text-align: center;
+  border-color: white;
+  padding: 15px;
+  color: white;
+
+}
+
+.sin-icons {
+  grid-area: sin-icons;}
+
+.sin-icons {
+  margin-left: 400px;
+  gap: px;
+}
+
+.sin-icons {
+height: 200px;
+
+}
+
+.sin-donthaveaccount {
+  grid-area: sin-donthaveaccount;
+}
+
+
+.sin-donthaveaccount h3 {
+  font-weight: bold;
+  margin-top: 50px;
+
+  margin-left: 50px;
+}
+
+.sin-donthaveaccount p {
+  font-size: xx-large;
+}
+
+.sin-signupbutton {
+  grid-area: sin-signupbutton;
+}
+.sin-signupbutton button {
+  border-radius: 20%/50%;
+  background-color: blue;
+  width: 250px;
+  margin-left: 250px;
+  margin-top: 10px;
+  border-color: white;
+  padding: 15px;
+  color: white;
+}
+
+.sin-signinbutton p
+{
+  font-weight: 700;
+  margin-top: px;
+}
+
+.sin-rocket {
+  grid-area: sin-rocket;
+}
+.sin-rocket {
+  margin-left: 200px;
+  margin-top: -50px;
+}
+
+.sin-empty {
+  grid-area: sin-empty;
+}
+
+.sin-emptyfooter {
+  grid-area: sin-emptyfooter;
+}
+
+/* Tyler End */
+
+
+
+
+
+
+/* Asmeret Start */
+
+.Content_section_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:150px;
+}
+
+.row_grid {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 300px;
+}
+
+
+.SignUpButton {
+    display: inline;
+    background-color: rgba(4, 59, 240, 0.925); 
+    width: auto;
+    margin-right: 20px;
+    border: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: 750;
+}
+
+.ChatBttn{
+    display: inline;
+    background-color: white;
+    width: auto; 
+    border: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(4, 59, 240, 0.925);
+    margin-left: 1px;
+    margin-bottom: 15px;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: rgba(4, 59, 240, 0.925);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 750;
+}
+
+.Title3 {
+    color: rgb(141, 139, 139)
+}
+.Title4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+#image {
+    float: right;
+    margin: 0 0 0 10px;
     margin: 0px;
 }
 
-/* David */
+/*Asmeret End */
+
+
+
+
+/* David Start */
 .nav-container{
     width:100vw;
     height:120px;
@@ -68,14 +352,7 @@ nav li{
     right:0px;
     padding-bottom:7px;
 }
-/* David End */
 
-
-
-
-
-
-/* David */
 .landing-hr{
     width:40vw;
     margin-left:auto;
@@ -114,7 +391,6 @@ nav li{
     margin-top:120px;
     font-size:large;
 }
-
 
 
 
@@ -206,8 +482,6 @@ nav li{
 
 
 
-
-
 .main-picture-container{
     display:flex;
     height:600px;
@@ -290,7 +564,6 @@ nav li{
     margin-left:70px;
     margin-top:-150px;
 }
-
 
 
 
@@ -380,13 +653,11 @@ nav li{
 
 
 
-
 .footer-background{
     width:100vw;
     height:500px;
     background-color:rgb(8, 81, 248);
     position:absolute;
-    
 }
 .footer-container {  display: grid;
     grid-template-columns: 1fr 1fr;
